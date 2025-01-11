@@ -1,0 +1,21 @@
+﻿[game]
+hostname = "🛰️ Corvax — Эхо ☄️[TTS]"
+desc = "[Требуется 30 часов на другом сервере Corvax!]\nКорвакс — первый русскоязычный проект в Space Station 14.\nНа этом сервере средние требования к RP.\nИмеется интеграция TTS (Text-To-Speech)."
+map_pool = "CorvaxDefaultMapPool"
+maxplayers = 170
+soft_max_players = 80
+map_rotation = true
+
+[game.panic_bunker]
+enabled = true
+show_reason = true
+min_account_age = 0
+min_overall_minutes = 1800
+custom_reason = "Для доступа на этот сервер вам необходимо отыграть на другом сервере Corvax как минимум 30 часов."
+
+[rules]
+time = 10.0
+
+[hub]
+advertise = true
+tags = "lang:ru,rp:med,region:eu_e,tts"
